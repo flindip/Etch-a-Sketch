@@ -1,0 +1,23 @@
+body{ min-height: 100vh;
+    box-sizing:border-box;
+    display:flex;
+    flex-wrap:wrap;
+}
+#display{
+border:solid black;
+flex:1;
+display:flex;
+}
+.columns{
+border-right: solid grey;
+box-sizing:content-box;
+flex:1;
+display:flex;
+flex-wrap:wrap;
+flex-direction:column;
+}
+.rows{
+    border-bottom:solid grey;
+    box-sizing:content-box;
+    flex:1;
+}
