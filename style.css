@@ -2,11 +2,19 @@ body{ min-height: 100vh;
     box-sizing:border-box;
     display:flex;
     flex-wrap:wrap;
+    flex-direction:column;
 }
+#grid-button{
+    flex-basis:100px;
+    width:300px;
+    align-self:center;
+   }
 #display{
 border:solid black;
-flex:1;
 display:flex;
+width:70%;
+height:700px;
+align-self:center;
 }
 .columns{
 border-right: solid grey;
@@ -19,5 +27,5 @@ flex-direction:column;
 .rows{
     border-bottom:solid grey;
     box-sizing:content-box;
-    flex:1;
-}
+     flex:1;
+    }
